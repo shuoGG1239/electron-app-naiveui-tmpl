@@ -23,7 +23,7 @@
     "mysql2": "^3.9.2",
     "pinia": "^2.1.7",
     "reflect-metadata": "0.2.1",
-    "sqlite3": "5.1.7",
+    "sqlite3": "5.0.0",
     "typeorm": "0.3.20",
     "uuid": "^9.0.1",
     "vue": "^3.4.19"

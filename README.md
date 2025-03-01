@@ -7,6 +7,15 @@
 ![image-20240318095624035](https://pic-bed-1307818467.cos.ap-guangzhou.myqcloud.com/img/image-20240318095624035.png)
 
 
+## 安装依赖包前先配下镜像不然404
+```bash
+npm config edit
+
+# 添加下面几行到配置文件
+ELECTRON_BUILDER_BINARIES_MIRROR=https://npmmirror.com/mirrors/electron-builder-binaries/
+ELECTRON_MIRROR=https://cdn.npmmirror.com/binaries/electron/
+registry=https://registry.npmmirror.com
+```
 
 ## 常用命令
 
